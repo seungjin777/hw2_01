@@ -8,8 +8,8 @@ jobs:
     -run: echo "The job was autimatically trigged by a &{{github.event_name}} event"
     -run: echo "This job is now running on a ${{runner.os}} server hostedby GitHub!"
     -name: Check out repository code
-      uses: actions/checkout@v4
+     uses: actions/checkout@v4
     -name: list file in the repo
-      run: |
-      ls ${{github.workspace}}
+     run: |
+     ls ${{github.workspace}}
     - run: echo "aa"
