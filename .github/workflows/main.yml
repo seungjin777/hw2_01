@@ -1,0 +1,15 @@
+name: hw2_01
+run-name: ${{github.actor}} is testing out GitHub Actions
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+  runs-on: ubuntu-latest
+  steps:
+    -run: echo "The job was autimatically trigged by a &{{github.event_name}} event"
+    -run: echo "This job is now running on a ${{runner.os}} server hostedby GitHub!"
+    -name: Check out repository code
+      uses: actions/checkout@v4
+    -name: list file in the repo
+      run: |
+      ls ${{github.workspace}}
+    - run: echo "aa"
