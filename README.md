@@ -1,3 +1,5 @@
+<!-- this is coment -->
+
 # hw2_01
 <hr>
 
@@ -7,6 +9,5 @@
 printf("Hello World\n");
 
 ```
-
 
 
